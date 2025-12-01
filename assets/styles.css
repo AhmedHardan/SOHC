@@ -6,10 +6,22 @@
     justify-content: center;
     align-items: center;
     gap: 12px;
-    color: #ffffff;
+    color: #2d1f1f;
    
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+    /* Background image (relative to this CSS file: assets/images/) */
+    background-image: url('images/hospital_bed.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
 
 a {
     text-decoration: none;
@@ -23,17 +35,6 @@ a {
 a:hover {
     color: rgb(25, 189, 249);
 }
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: rgb(9, 9, 9);
-    background-image: url('images/hospital_bed.jpg');
-    background-size: cover; 
-}
-
-
 
 footer {
    
@@ -62,9 +63,56 @@ footer  p {
 }
 
 .login-container { 
-
-    color: white;
-    margin: 10px auto;
+    color: rgb(41, 29, 29);
     max-width: 400px;
     width: 90%;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 8px;
+    margin: 100px auto;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
+
+.login-container h1 {
+    margin-top: 0;
+    color: #333;
+    font-size: 28px;
+}
+
+.login-container label {
+    display: block;
+    text-align: left;
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] ,
+ .login-container input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.login-container input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    background-color: rgb(12, 38, 90);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.login-container input[type="submit"]:hover {
+    background-color: rgb(17, 31, 42);
+}
+

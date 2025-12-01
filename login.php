@@ -1,9 +1,10 @@
 <?php 
 $title = "Login - Salalah Oasis Hospital";
+
 include ('includes/header.php');  
 include ('includes/nav.php');
 ?>
-
+<body> 
 
 <div class="login-container"> 
     <h1>Patient Login</h1>
@@ -14,10 +15,13 @@ include ('includes/nav.php');
         <label for="password">Password:</label>
         <input type="password" id="password" name="password" required><br>
         <input type="submit" value="Login">
+        <a href="register.php">  <h2>New User?</h2>   </a>
     </form>
 </div>
+
 
 
 <?php 
 include ('includes/footer.php');
 ?>
+</body>

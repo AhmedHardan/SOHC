@@ -1,0 +1,33 @@
+# Local environment files
+.env
+.env.local
+config.local.php
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Composer
+vendor/
+composer.lock
+
+# NPM
+node_modules/
+package-lock.json
+
+# Temporary and cache files
+*.tmp
+*.cache
+.cache/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
+logs/

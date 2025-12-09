@@ -5,6 +5,6 @@
 	<a href="login.php">LOGIN</a>
 	<a href="register.php">REGISTER</a>
 	<a href="staff_login.php">STAFF LOGIN</a>
-	<a href="user-home.php">ABOUT US</a>
+	<a href="about-us.php">ABOUT US</a>
 
 </div>

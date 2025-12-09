@@ -1,0 +1,6 @@
+
+INSERT INTO patients
+  (first_name, second_name, gender, username, mobile_number, national_id, password_hash)
+VALUES
+  ('Ahmed', 'Mohammed', 'M', 'reke', '90000000', '232',
+   '$2y$10$kWJF8F1JdMhqkIBcQhPia.Ohf0FiDWDq4ILNnCzK8l4A3qjqIp/eO');

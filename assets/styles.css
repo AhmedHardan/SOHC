@@ -1,13 +1,12 @@
 .nav-bar {
-    background: linear-gradient(rgba(152, 231, 255, 0.071), rgba(0,0,0,0.55)), url('images/banner.jpg') center/cover no-repeat;
-    padding: 18px 15px;
-   
+    background: linear-gradient(rgba(152, 231, 255, 0.071), rgba(0,0,0,0.55)), url('images/hospital_index.png') center/cover no-repeat;
+    padding: 2px 15px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 12px;
-    color: #2d1f1f;
-   
+    color: #ffffff;
+    
 }
 
 body {
@@ -15,7 +14,7 @@ body {
     margin: 0;
     padding: 0;
     color: white;
-    /* Background image (relative to this CSS file: assets/images/) */
+    
     background-image: url('images/hospital_bed.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -44,7 +43,7 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background: linear-gradient(rgba(152, 231, 255, 0.071), rgba(0,0,0,0.55)), url('images/banner.jpg') center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.697), rgba(0,0,0,0.55)), url('images/hospital_index.png') center/cover no-repeat;
 }
 
 
@@ -116,3 +115,64 @@ footer  p {
     background-color: rgb(17, 31, 42);
 }
 
+
+.index-text-container { 
+
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 800px;
+    height: 800;
+    margin: 40px ;
+}
+
+.hero { 
+    position: relative;
+    background: url('images/operation1.png') center/cover no-repeat;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+}
+
+.hero-text { 
+    text-align: center;
+    max-width: 80;
+}
+
+.hero-text h4 { 
+    font-weight: normal;
+    letter-spacing: 2px;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    background: black;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.hero-text h1 { 
+
+    font-size: 3rem;
+    line-height: 1.2;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 1.5rem;
+    text-transform: capitalize;
+}} 
+
+.hero-buttons { 
+    margin: 0 0.5rem;
+    padding: 0.75rem 1.5rem;
+    background: rgb(12, 38, 90);
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.hero-buttons a:hover { 
+    background: rgb(17, 31, 42);
+    text-decoration: ;
+}

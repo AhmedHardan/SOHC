@@ -24,8 +24,9 @@ body {
 
 a {
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(22, 127, 153);
     font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
     display: inline-block;
     margin: 8px 12px;
 }
@@ -159,12 +160,11 @@ footer  p {
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 1.5rem;
     text-transform: capitalize;
-}} 
+}
 
 .hero-buttons { 
     margin: 0 0.5rem;
     padding: 0.75rem 1.5rem;
-    background: rgb(12, 38, 90);
     color: white;
     border-radius: 4px;
     text-decoration: none;
@@ -174,5 +174,5 @@ footer  p {
 
 .hero-buttons a:hover { 
     background: rgb(17, 31, 42);
-    text-decoration: ;
+    text-decoration: none;
 }

@@ -14,7 +14,8 @@ include ('includes/nav.php');
         <input type="text" id="staffusername" name="staffusername" required><br>
         <label for="staffpassword">Password:</label>
         <input type="password" id="staffpassword" name="staffpassword" required><br>
-        <input type="submit" value="Login">
+        <input type="submit" name="login" value="Login">
+
         
     </form>
 </div>

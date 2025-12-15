@@ -39,8 +39,7 @@ include ('includes/nav.php');
 
         <input type="submit" value="Register" name="register">
 
-        <a href="register.php">  <h2>New User?</h2>   </a>
-    </form>
+       
 </div>
 
 

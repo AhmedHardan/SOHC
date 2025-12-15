@@ -9,13 +9,14 @@ include ('includes/nav.php');
 <div class="login-container"> 
     <h1>Patient Login</h1>
 
-    <form action="process_login.php" method="post"> 
+    <form action="login_code.php" method="post"> 
         <label for="username">Username:</label>
         <input type="text" id="username" name="username" required><br>
         <label for="password">Password:</label>
         <input type="password" id="password" name="password" required><br>
-        <input type="submit" value="Login">
-        <a href="register.php">  <h2>New User?</h2>   </a>
+       <input type="submit" name="login" value="Login">
+        <a href="register.php">  New User?  </a>
+        <a href="forgot_password.php">  Forgot Password?   </a>
     </form>
 </div>
 

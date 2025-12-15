@@ -1,17 +1,16 @@
 <?php
-$host     = 'localhost';
-$dbname   = 'hospitaldb';
-$username = 'root';
-$password = '';
+$dsn = "mysql:host=localhost;dbname=hospitaldb;charset=utf8mb4";
+$dbusername = 'root';
+$dbpassword = '';
 
 try {
-    $conn = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8mb4", $username, $password);
 
-    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    $pdo = new PDO ($dsn, $dbusername, $dbpassword); 
+    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    # PDO stands for PHP Data object its way to connect to database  (  turn connection into an object )
+    echo "Connected successfully";
 
- 
 } catch (PDOException $e) {
- 
     echo "Connection failed: " . $e->getMessage();
+
 }
-?>

@@ -10,7 +10,7 @@ include ('includes/nav.php');
 
 
 <div class="login-container"> 
-    <h1>Patient Login</h1>
+    <h1>Patient Register</h1>
 
     <form action="add_patient.php" method="post"> 
         <label for="fname">First name </label>

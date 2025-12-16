@@ -1,4 +1,5 @@
 <?php
+$title = "User Interface - Salalah Oasis Hospital";
 
 session_start();
 

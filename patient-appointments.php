@@ -1,4 +1,6 @@
 <?php
+$title = "Appointment - Salalah Oasis Hospital";
+
 session_start();
 
 // protect page
@@ -23,7 +25,7 @@ $stmt->execute([$username]);
 $appointments = $stmt->fetchAll(PDO::FETCH_ASSOC);
 ?>
 
-<div class="login-container">
+<div class="login-container-wide">
     <h2>My Appointments</h2>
 
     <?php

@@ -19,7 +19,7 @@ include 'includes/nav.php';
     <ul style="list-style:none; padding:0;">
         <li><a href="admin-add-appointment.php">➕ Add Appointment</a></li>
         <li><a href="admin-view-appointments.php">📋 View Appointments</a></li>
-        <li><a href="logout.php">🚪 Logout</a></li>
+        <li><a href="logout-staff.php">🚪 Logout</a></li>
     </ul>
 </div>
 

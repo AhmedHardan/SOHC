@@ -1,4 +1,6 @@
 <?php
+$title = "Update appointment - Salalah Oasis Hospital";
+
 session_start();
 
 // Protect staff page

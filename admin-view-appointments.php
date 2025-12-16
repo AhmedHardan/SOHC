@@ -1,4 +1,6 @@
 <?php
+$title = "View Appointments - Salalah Oasis Hospital";
+
 //1 - start session
 session_start();
 

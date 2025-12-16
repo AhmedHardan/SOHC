@@ -1,5 +1,5 @@
 <?php 
-$title = "Home Page";
+$title = "Regsiter - Salalah Oasis Hospital";
 include ('includes/header.php');  
 include ('includes/nav.php');
 

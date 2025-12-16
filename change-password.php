@@ -1,4 +1,6 @@
 <?php
+$title = "Change Password - Salalah Oasis Hospital";
+
 session_start();
 
 // Protect page

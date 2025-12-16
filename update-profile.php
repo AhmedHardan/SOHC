@@ -1,4 +1,6 @@
 <?php
+$title = "Update Profile - Salalah Oasis Hospital";
+
 session_start();
 
 // Protect page

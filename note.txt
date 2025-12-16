@@ -4,3 +4,10 @@ INSERT INTO patients
 VALUES
   ('Ahmed', 'Mohammed', 'M', 'reke', '90000000', '232',
    '$2y$10$kWJF8F1JdMhqkIBcQhPia.Ohf0FiDWDq4ILNnCzK8l4A3qjqIp/eO');
+
+
+how to add new staff 
+
+INSERT INTO staff (username, password_hash)
+VALUES ('admin1', '$2y$10$examplehashedpassword');
+

@@ -16,7 +16,7 @@ include ('includes/nav.php');
         <input type="password" id="password" name="password" required><br>
        <input type="submit" name="login" value="Login">
         <a href="register.php">  New User?  </a>
-        <a href="forgot_password.php">  Forgot Password?   </a>
+        
     </form>
 </div>
 
@@ -25,4 +25,3 @@ include ('includes/nav.php');
 <?php 
 include ('includes/footer.php');
 ?>
-</body>

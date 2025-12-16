@@ -8,6 +8,7 @@ try {
     $pdo = new PDO ($dsn, $dbusername, $dbpassword); 
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     # PDO stands for PHP Data object its way to connect to database  (  turn connection into an object )
+    # errormode and excpetion is to handle errors 
     
 
 } catch (PDOException $e) {
